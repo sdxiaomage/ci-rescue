@@ -27,3 +27,8 @@ Typical repairs include dependency/cache failures, local-vs-CI differences, perm
 
 请勿在工单中发布密钥、密码、私有源码或个人信息。
 
+## 验收后付款
+
+仅在双方已经书面确认工作范围和价格、修复结果已经验收后，使用以下支付宝收款码付款。不要向任何声称代表本服务的其他账号付款，也不要仅凭付款截图判断交易成功。
+
+<img src="assets/alipay-receive.jpg" alt="支付宝收款码" width="420">

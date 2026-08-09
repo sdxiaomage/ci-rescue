@@ -26,6 +26,14 @@ I will reply with one of three outcomes:
 
 No payment is requested until a fix has been delivered and accepted. Payment method is agreed in writing before work begins; never send credentials or money through an unsolicited message.
 
+## Payment after acceptance / 验收后付款
+
+Alipay is available for domestic clients. Use this code only after the written scope and price are agreed and the repair has been accepted. Payment is never required merely to open a diagnosis request.
+
+国内客户可在双方书面确认工作范围和价格、修复结果验收后，使用以下支付宝收款码付款。仅提交免费诊断工单不需要付款。
+
+<img src="assets/alipay-receive.jpg" alt="Alipay receiving code / 支付宝收款码" width="420">
+
 ---
 
 # CI 急救 — 修复 GitHub Actions / CI
@@ -41,4 +49,3 @@ No payment is requested until a fix has been delivered and accepted. Payment met
 [提交修复工单](../../issues/new?template=repair-request.yml)。请附仓库地址、失败运行地址、预期结果，并在发布前删除日志里的密钥和隐私信息。
 
 这不是“保证赚钱”或投资项目，而是一项按结果收费的技术服务。
-
