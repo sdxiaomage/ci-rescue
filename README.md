@@ -14,6 +14,8 @@ Your pipeline is red. I diagnose it for free and quote only after I understand t
 
 Good fits include dependency/cache failures, test or lint jobs that pass locally but fail in CI, matrix/version problems, permissions errors, flaky steps, release-workflow regressions, and Windows/Linux path differences.
 
+For fixed-template Excel/CSV cleanup, exception reporting, and reconciliation, see the [public automation demo](https://github.com/sdxiaomage/excel-automation-demo). The fixed packages are ¥399 and ¥700, async text only, with one consolidated revision.
+
 Not accepted: credential recovery, bypassing access controls, malware, spam, fake reviews, academic cheating, or work that requires handling private production data.
 
 ## Start here
