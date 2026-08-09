@@ -10,19 +10,50 @@ body:
         The first diagnosis is free. A focused repair is US$39, async text only, payment after acceptance, with one consolidated revision. Do not post tokens, passwords, private source code, or personal data.
 
         首次诊断免费。边界明确的单一修复固定价 US$39，全程异步文字，验收后付款，最多一次合并反馈。不要发布密钥、密码、私有源码或个人信息。
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Request type / 工单类型
+      options:
+        - Free diagnosis only / 仅免费诊断
+        - CI-S1 fixed package (US$39) / CI-S1 固定套餐
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Preferred written language / 文字语言
+      options:
+        - English
+        - 中文
+    validations:
+      required: true
+  - type: dropdown
+    id: public_repository
+    attributes:
+      label: Is the repository public? / 仓库是否公开
+      options:
+        - Yes / 是
+        - No — I will provide only a sanitized minimal reproduction / 否，仅提供脱敏最小复现
+    validations:
+      required: true
   - type: input
     id: repository
     attributes:
       label: Repository URL
-      description: Public repository preferred. For private repositories, describe the failure without sharing source or secrets.
+      description: Required for a public-repository repair. Leave blank for a private repository and provide only a sanitized minimal reproduction below.
       placeholder: https://github.com/owner/repository
-    validations:
-      required: true
   - type: input
     id: run
     attributes:
       label: Failing run or log URL
+      description: Use a public URL only. Leave blank if it would expose private data.
       placeholder: https://github.com/owner/repository/actions/runs/...
+  - type: textarea
+    id: sanitized_error
+    attributes:
+      label: Sanitized failure or minimal reproduction / 脱敏错误或最小复现
+      description: Include the exact error and the smallest relevant workflow excerpt. Remove credentials, private source, and personal data.
     validations:
       required: true
   - type: textarea
@@ -36,6 +67,13 @@ body:
     id: attempted
     attributes:
       label: What you already tried
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance test / 验收测试
+      description: State the job or written substitute test that must pass for the repair to be accepted.
+    validations:
+      required: true
   - type: checkboxes
     id: safety
     attributes:

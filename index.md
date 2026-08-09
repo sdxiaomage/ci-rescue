@@ -15,7 +15,7 @@ I repair focused GitHub Actions and CI failures. The first diagnosis is free; pa
 ## Simple terms
 
 - Free first diagnosis from public logs and workflow files.
-- Usually US$39 for one focused repair.
+- US$39 for the CI-S1 package: one public repository, one failing workflow or root cause, and changes to at most three workflow/configuration files.
 - Pay after the fix is accepted; no accepted fix means no fee.
 - Async text only: no calls, meetings, group chats, or live screen sharing.
 - Fixed scope and price, with one consolidated written revision.
@@ -23,6 +23,8 @@ I repair focused GitHub Actions and CI failures. The first diagnosis is free; pa
 - You keep repository ownership and never share secrets.
 
 Typical repairs include dependency/cache failures, local-vs-CI differences, permissions, matrices, flaky steps, release regressions, and Windows/Linux path bugs.
+
+CI-S1 excludes business-feature development, private production access, secrets, migrations, and unrelated failures. Acceptance means the agreed failing job passes under the same trigger, or a written substitute test agreed before coding passes. Anything outside that scope is declined or treated as a separate fixed package; there is no live negotiation.
 
 ## Free self-service audit
 
