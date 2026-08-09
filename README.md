@@ -14,6 +14,8 @@ Your pipeline is red. I diagnose it for free and quote only after I understand t
 
 Good fits include dependency/cache failures, test or lint jobs that pass locally but fail in CI, matrix/version problems, permissions errors, flaky steps, release-workflow regressions, and Windows/Linux path differences.
 
+Run the free, zero-dependency [CI Health Audit](https://github.com/sdxiaomage/ci-health-audit) first. It checks common GitHub Actions security and reliability risks and produces a Markdown or JSON report. The audit is self-service; no contact is required.
+
 For fixed-template Excel/CSV cleanup, exception reporting, and reconciliation, see the [public automation demo](https://github.com/sdxiaomage/excel-automation-demo). The fixed packages are ¥399 and ¥700, async text only, with one consolidated revision.
 
 Not accepted: credential recovery, bypassing access controls, malware, spam, fake reviews, academic cheating, or work that requires handling private production data.
@@ -45,6 +47,8 @@ Alipay is available for domestic clients. Use this code only after the written s
 # CI 急救 — 修复 GitHub Actions / CI
 
 流水线报错时，我先免费查看日志和工作流文件，确认问题后再给固定报价。
+
+可以先自行运行免费的 [CI Health Audit](https://github.com/sdxiaomage/ci-health-audit)，扫描常见的 GitHub Actions 安全与可靠性风险并生成报告，无需联系或沟通。
 
 - 首次诊断免费；
 - 单一、边界明确的 CI 故障通常报价 **39 美元等值**；

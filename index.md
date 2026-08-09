@@ -21,6 +21,10 @@ I repair focused GitHub Actions and CI failures. The first diagnosis is free; pa
 
 Typical repairs include dependency/cache failures, local-vs-CI differences, permissions, matrices, flaky steps, release regressions, and Windows/Linux path bugs.
 
+## Free self-service audit
+
+[CI Health Audit](https://github.com/sdxiaomage/ci-health-audit) is a zero-dependency GitHub Action and CLI that checks common security and reliability risks. Run it without contacting me; if the report identifies a focused repair, the US$39 fixed package remains async-only with one consolidated written revision.
+
 ## Excel / CSV fixed-scope automation
 
 I also provide auditable cleanup and reconciliation for fixed spreadsheet templates. The public demo includes sanitized inputs, cleaned output, an exception report, and a formula-driven dashboard.
@@ -37,6 +41,8 @@ I also provide auditable cleanup and reconciliation for fixed spreadsheet templa
 全程只接受异步文字沟通：不拉群、不开会、不语音或视频、不议价。每个固定范围项目最多接受一次合并后的文字反馈；修订提交后等待审核与付款。
 
 [免费提交诊断工单](https://github.com/sdxiaomage/ci-rescue/issues/new?template=repair-request.yml)
+
+[免费自助运行 CI Health Audit](https://github.com/sdxiaomage/ci-health-audit)：无需联系，直接生成常见安全与可靠性风险报告。
 
 [查看 Excel/CSV 批处理 Demo 与固定价工单](https://github.com/sdxiaomage/excel-automation-demo)
 
