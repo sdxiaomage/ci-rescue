@@ -7,6 +7,8 @@ Your pipeline is red. I diagnose it for free and quote only after I understand t
 - **Free first diagnosis** from logs and workflow files.
 - **Fixed price before coding** — normally **US$39** for one focused CI failure.
 - **Pay only after acceptance** — no fee if I cannot produce an accepted fix.
+- **Async only** — no calls, meetings, group chats, or live screen sharing.
+- **One consolidated written revision** within the agreed scope; no open-ended negotiation.
 - A pull request with the fix, a short root-cause explanation, and verification notes.
 - No secrets, production access, or repository ownership required.
 
@@ -26,6 +28,8 @@ I will reply with one of three outcomes:
 
 No payment is requested until a fix has been delivered and accepted. Payment method is agreed in writing before work begins; never send credentials or money through an unsolicited message.
 
+The listed package has a fixed scope and price. After delivery, the client may send one consolidated asynchronous written feedback message. I submit the revision once, then wait for acceptance and payment. Requests that require meetings, group chats, repeated negotiation, or ongoing synchronous support are declined.
+
 ## Payment after acceptance / 验收后付款
 
 Alipay is available for domestic clients. Use this code only after the written scope and price are agreed and the repair has been accepted. Payment is never required merely to open a diagnosis request.
@@ -43,6 +47,8 @@ Alipay is available for domestic clients. Use this code only after the written s
 - 首次诊断免费；
 - 单一、边界明确的 CI 故障通常报价 **39 美元等值**；
 - 修复被验收后才付款，无法交付可验收修复则不收费；
+- 全程异步文字沟通，不拉群、不开会、不语音或视频；
+- 固定价格、固定范围，不议价；最多接受一次合并后的异步文字反馈；
 - 交付物包括修复 PR、根因说明和验证记录；
 - 不需要仓库所有权、生产权限或任何密钥。
 
