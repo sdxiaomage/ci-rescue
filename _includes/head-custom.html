@@ -1,4 +1,13 @@
-{% if page.url == '/zh/' %}
+{% if page.url contains '/zh/cases/' %}
+<link rel="alternate" hreflang="zh-CN" href="https://sdxiaomage.github.io/ci-rescue/zh/cases/maka-electron-retry/">
+<link rel="alternate" hreflang="en" href="https://sdxiaomage.github.io/ci-rescue/cases/maka-electron-retry/">
+<link rel="alternate" hreflang="x-default" href="https://sdxiaomage.github.io/ci-rescue/cases/maka-electron-retry/">
+<meta property="og:locale" content="zh_CN">
+{% elsif page.url contains '/cases/' %}
+<link rel="alternate" hreflang="en" href="https://sdxiaomage.github.io/ci-rescue/cases/maka-electron-retry/">
+<link rel="alternate" hreflang="zh-CN" href="https://sdxiaomage.github.io/ci-rescue/zh/cases/maka-electron-retry/">
+<link rel="alternate" hreflang="x-default" href="https://sdxiaomage.github.io/ci-rescue/cases/maka-electron-retry/">
+{% elsif page.url == '/zh/' %}
 <link rel="alternate" hreflang="zh-CN" href="https://sdxiaomage.github.io/ci-rescue/zh/">
 <link rel="alternate" hreflang="en" href="https://sdxiaomage.github.io/ci-rescue/">
 <link rel="alternate" hreflang="x-default" href="https://sdxiaomage.github.io/ci-rescue/">

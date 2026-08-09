@@ -41,7 +41,7 @@ I also provide auditable cleanup and reconciliation for fixed spreadsheet templa
 
 ## Public delivery evidence
 
-- [Merged Electron download reliability fix](https://github.com/maka-agent/maka-agent/pull/2594): 12 successful checks and a maintainer merge.
+- [Case study: retry transient Electron downloads without retrying permanent failures](https://sdxiaomage.github.io/ci-rescue/cases/maka-electron-retry/): 12 successful checks and a maintainer merge.
 - [DataHub Windows quickstart documentation fix](https://github.com/datahub-project/datahub/pull/19024): applicable checks passed; maintainer review pending.
 
 These are public contribution examples, not paid-client testimonials. They demonstrate diagnosis, implementation, verification, and review-ready delivery without inventing customer claims.

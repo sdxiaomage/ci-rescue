@@ -31,7 +31,7 @@ CI-S1 不包含业务功能开发、私有生产访问、密钥处理、迁移�
 
 ## 公开能力证据
 
-- [Electron 下载可靠性修复 PR](https://github.com/maka-agent/maka-agent/pull/2594)：12 项检查通过，已由维护者合并。
+- [完整案例：只重试瞬态 Electron 下载故障](https://sdxiaomage.github.io/ci-rescue/zh/cases/maka-electron-retry/)：12 项检查通过，已由维护者合并。
 - [DataHub Windows 快速入门文档修复 PR](https://github.com/datahub-project/datahub/pull/19024)：适用检查通过，等待维护者审核。
 - [CI Health Audit](https://github.com/sdxiaomage/ci-health-audit)：已在 GitHub Marketplace 上线的零依赖 Actions/CLI 静态审计工具。
 
