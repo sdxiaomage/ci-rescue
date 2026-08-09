@@ -1,5 +1,5 @@
 name: CI repair request / CI 修复工单
-description: Request a free diagnosis of one failing CI workflow
+description: Free diagnosis for one failing CI workflow / 单一 CI 故障免费诊断
 title: "[Repair] "
 labels:
   - triage
@@ -7,7 +7,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        The first diagnosis is free. Do not post tokens, passwords, private source code, or personal data.
+        The first diagnosis is free. A focused repair is US$39, async text only, payment after acceptance, with one consolidated revision. Do not post tokens, passwords, private source code, or personal data.
+
+        首次诊断免费。边界明确的单一修复固定价 US$39，全程异步文字，验收后付款，最多一次合并反馈。不要发布密钥、密码、私有源码或个人信息。
   - type: input
     id: repository
     attributes:
@@ -43,4 +45,5 @@ body:
           required: true
         - label: I understand that any paid work requires a written scope and price before coding begins.
           required: true
-
+        - label: I accept async text only and at most one consolidated revision within the agreed scope.
+          required: true

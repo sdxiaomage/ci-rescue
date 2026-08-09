@@ -1,5 +1,7 @@
 # CI Rescue — fix your broken GitHub Actions
 
+[中文服务页](https://sdxiaomage.github.io/ci-rescue/zh/) · [English service page](https://sdxiaomage.github.io/ci-rescue/)
+
 Your pipeline is red. I diagnose it for free and quote only after I understand the failure.
 
 ## The offer

@@ -1,6 +1,7 @@
 ---
 title: CI Rescue
 description: Free diagnosis and outcome-based GitHub Actions repair
+lang: en
 ---
 
 # Your pipeline is red. Let’s fix it.
@@ -8,6 +9,8 @@ description: Free diagnosis and outcome-based GitHub Actions repair
 I repair focused GitHub Actions and CI failures. The first diagnosis is free; paid work gets a fixed written scope and price before coding begins.
 
 [Open a free diagnosis request](https://github.com/sdxiaomage/ci-rescue/issues/new?template=repair-request.yml)
+
+[中文服务说明](https://sdxiaomage.github.io/ci-rescue/zh/)
 
 ## Simple terms
 
@@ -34,22 +37,9 @@ I also provide auditable cleanup and reconciliation for fixed spreadsheet templa
 
 [View the workbook demo and open a fixed-scope request](https://github.com/sdxiaomage/excel-automation-demo)
 
-## 中文
+## Public delivery evidence
 
-我修复 GitHub Actions / CI 故障：首次诊断免费，确认问题后书面约定固定价格，修复验收后付款；无法交付可验收修复则不收费。
+- [Merged Electron download reliability fix](https://github.com/maka-agent/maka-agent/pull/2594): 12 successful checks and a maintainer merge.
+- [DataHub Windows quickstart documentation fix](https://github.com/datahub-project/datahub/pull/19024): applicable checks passed; maintainer review pending.
 
-全程只接受异步文字沟通：不拉群、不开会、不语音或视频、不议价。每个固定范围项目最多接受一次合并后的文字反馈；修订提交后等待审核与付款。
-
-[免费提交诊断工单](https://github.com/sdxiaomage/ci-rescue/issues/new?template=repair-request.yml)
-
-[免费自助运行 CI Health Audit](https://github.com/sdxiaomage/ci-health-audit)：无需联系，直接生成常见安全与可靠性风险报告。
-
-[查看 Excel/CSV 批处理 Demo 与固定价工单](https://github.com/sdxiaomage/excel-automation-demo)
-
-请勿在工单中发布密钥、密码、私有源码或个人信息。
-
-## 验收后付款
-
-仅在双方已经书面确认工作范围和价格、修复结果已经验收后，使用以下支付宝收款码付款。不要向任何声称代表本服务的其他账号付款，也不要仅凭付款截图判断交易成功。
-
-<img src="assets/alipay-receive.jpg" alt="支付宝收款码" width="420">
+These are public contribution examples, not paid-client testimonials. They demonstrate diagnosis, implementation, verification, and review-ready delivery without inventing customer claims.

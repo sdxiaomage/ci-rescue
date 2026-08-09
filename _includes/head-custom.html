@@ -1,0 +1,35 @@
+{% if page.url == '/zh/' %}
+<link rel="alternate" hreflang="zh-CN" href="https://sdxiaomage.github.io/ci-rescue/zh/">
+<link rel="alternate" hreflang="en" href="https://sdxiaomage.github.io/ci-rescue/">
+<link rel="alternate" hreflang="x-default" href="https://sdxiaomage.github.io/ci-rescue/">
+<meta property="og:locale" content="zh_CN">
+{% else %}
+<link rel="alternate" hreflang="en" href="https://sdxiaomage.github.io/ci-rescue/">
+<link rel="alternate" hreflang="zh-CN" href="https://sdxiaomage.github.io/ci-rescue/zh/">
+<link rel="alternate" hreflang="x-default" href="https://sdxiaomage.github.io/ci-rescue/">
+{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "CI Rescue",
+  "serviceType": "GitHub Actions and CI failure repair",
+  "provider": {
+    "@type": "Person",
+    "name": "sdxiaomage",
+    "url": "https://github.com/sdxiaomage"
+  },
+  "areaServed": "Worldwide",
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "https://github.com/sdxiaomage/ci-rescue/issues/new?template=repair-request.yml",
+    "availableLanguage": ["en", "zh-CN"]
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "39",
+    "priceCurrency": "USD",
+    "description": "One focused CI failure, fixed written scope, one consolidated asynchronous revision, payment after acceptance"
+  }
+}
+</script>
