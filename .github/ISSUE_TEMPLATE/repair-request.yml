@@ -1,0 +1,46 @@
+name: CI repair request / CI 修复工单
+description: Request a free diagnosis of one failing CI workflow
+title: "[Repair] "
+labels:
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The first diagnosis is free. Do not post tokens, passwords, private source code, or personal data.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository URL
+      description: Public repository preferred. For private repositories, describe the failure without sharing source or secrets.
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: input
+    id: run
+    attributes:
+      label: Failing run or log URL
+      placeholder: https://github.com/owner/repository/actions/runs/...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should the job do, and what changed before it failed?
+    validations:
+      required: true
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What you already tried
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I removed secrets and personal/private data from the links and text above.
+          required: true
+        - label: I understand that any paid work requires a written scope and price before coding begins.
+          required: true
+
