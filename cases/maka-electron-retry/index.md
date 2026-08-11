@@ -58,6 +58,6 @@ The PR was approved at 2026-08-09 18:02:27 UTC and merged two seconds later. The
 
 ## Need a similar repair?
 
-The [CI-S1 package](https://sdxiaomage.github.io/ci-rescue/) is US$39 for one public repository, one failing workflow or root cause, and changes to at most three workflow/configuration files. Diagnosis is free, communication is asynchronous text only, one consolidated revision is included, and payment is due only after acceptance.
+The [CI-S1 package](https://sdxiaomage.github.io/ci-rescue/) is US$39 internationally or CNY ¥299 for mainland-China Alipay payment: one public repository, one failing workflow or root cause, and changes to at most three workflow/configuration files. Diagnosis is free, communication is asynchronous text only, one consolidated revision is included, and payment is due only after acceptance.
 
 [Open a free diagnosis request](https://github.com/sdxiaomage/ci-rescue/issues/new?template=repair-request.yml)

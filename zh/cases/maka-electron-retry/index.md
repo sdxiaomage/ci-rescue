@@ -56,6 +56,6 @@ CI 下载 Electron 构件时，可能因临时网络错误、限流或上游 5xx
 
 ## 需要类似修复？
 
-[CI-S1 固定套餐](https://sdxiaomage.github.io/ci-rescue/zh/)为 US$39：1 个公开仓库、1 个失败工作流或单一根因、最多修改 3 个 workflow/配置文件。首次诊断免费，全程异步文字，包含一次合并反馈，修复验收后付款。
+[CI-S1 固定套餐](https://sdxiaomage.github.io/ci-rescue/zh/)为大陆 ¥299（支付宝）/ 国际 US$39：1 个公开仓库、1 个失败工作流或单一根因、最多修改 3 个 workflow/配置文件。首次诊断免费，全程异步文字，包含一次合并反馈，修复验收后付款。
 
 [免费提交诊断工单](https://github.com/sdxiaomage/ci-rescue/issues/new?template=repair-request.yml)

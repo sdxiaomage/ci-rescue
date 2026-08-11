@@ -7,7 +7,7 @@ Your pipeline is red. I diagnose it for free and use a published fixed package w
 ## The offer
 
 - **Free first diagnosis** from logs and workflow files.
-- **CI-S1 fixed price: US$39** — one public repository, one failing workflow or root cause, and changes to at most three workflow/configuration files.
+- **CI-S1 fixed price: US$39 internationally / ¥299 for mainland-China Alipay payment** — one public repository, one failing workflow or root cause, and changes to at most three workflow/configuration files.
 - **Pay only after acceptance** — no fee if I cannot produce an accepted fix.
 - **Async only** — no calls, meetings, group chats, or live screen sharing.
 - **One consolidated written revision** within the agreed scope; no open-ended negotiation.
@@ -55,7 +55,7 @@ Alipay is available for domestic clients. Use this code only after the written s
 可以先自行运行免费的 [CI Health Audit](https://github.com/sdxiaomage/ci-health-audit)，扫描常见的 GitHub Actions 安全与可靠性风险并生成报告，无需联系或沟通。
 
 - 首次诊断免费；
-- **CI-S1 固定价 US$39**：1 个公开仓库、1 个失败工作流或单一根因、最多修改 3 个 workflow/配置文件；
+- **CI-S1 大陆固定价 ¥299（支付宝）/ 国际固定价 US$39**：1 个公开仓库、1 个失败工作流或单一根因、最多修改 3 个 workflow/配置文件；
 - 修复被验收后才付款，无法交付可验收修复则不收费；
 - 全程异步文字沟通，不拉群、不开会、不语音或视频；
 - 固定价格、固定范围，不议价；最多接受一次合并后的异步文字反馈；

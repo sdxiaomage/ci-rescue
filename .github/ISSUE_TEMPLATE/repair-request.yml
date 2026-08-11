@@ -7,16 +7,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        The first diagnosis is free. A focused repair is US$39, async text only, payment after acceptance, with one consolidated revision. Do not post tokens, passwords, private source code, or personal data.
+        The first diagnosis is free. A focused repair is US$39 internationally or CNY ¥299 for mainland-China Alipay payment, async text only, payment after acceptance, with one consolidated revision. Do not post tokens, passwords, private source code, or personal data.
 
-        首次诊断免费。边界明确的单一修复固定价 US$39，全程异步文字，验收后付款，最多一次合并反馈。不要发布密钥、密码、私有源码或个人信息。
+        首次诊断免费。边界明确的单一修复大陆固定价 ¥299（支付宝）/ 国际固定价 US$39，全程异步文字，验收后付款，最多一次合并反馈。不要发布密钥、密码、私有源码或个人信息。
   - type: dropdown
     id: request_type
     attributes:
       label: Request type / 工单类型
       options:
         - Free diagnosis only / 仅免费诊断
-        - CI-S1 fixed package (US$39) / CI-S1 固定套餐
+        - CI-S1 fixed package (US$39 international / CNY ¥299 mainland) / CI-S1 固定套餐
     validations:
       required: true
   - type: dropdown

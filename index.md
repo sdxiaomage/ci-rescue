@@ -15,7 +15,7 @@ I repair focused GitHub Actions and CI failures. The first diagnosis is free; pa
 ## Simple terms
 
 - Free first diagnosis from public logs and workflow files.
-- US$39 for the CI-S1 package: one public repository, one failing workflow or root cause, and changes to at most three workflow/configuration files.
+- CI-S1 fixed price: US$39 internationally or CNY ¥299 for mainland-China clients paying by Alipay. The scope is one public repository, one failing workflow or root cause, and changes to at most three workflow/configuration files.
 - Pay after the fix is accepted; no accepted fix means no fee.
 - Async text only: no calls, meetings, group chats, or live screen sharing.
 - Fixed scope and price, with one consolidated written revision.
@@ -28,7 +28,7 @@ CI-S1 excludes business-feature development, private production access, secrets,
 
 ## Free self-service audit
 
-[CI Health Audit](https://github.com/sdxiaomage/ci-health-audit) is a zero-dependency GitHub Action and CLI that checks common security and reliability risks. Run it without contacting me; if the report identifies a focused repair, the US$39 fixed package remains async-only with one consolidated written revision.
+[CI Health Audit](https://github.com/sdxiaomage/ci-health-audit) is a zero-dependency GitHub Action and CLI that checks common security and reliability risks. Run it without contacting me; if the report identifies a focused repair, the US$39 / mainland-China ¥299 fixed package remains async-only with one consolidated written revision.
 
 ## Excel / CSV fixed-scope automation
 
